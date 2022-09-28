@@ -1,0 +1,42 @@
+@import "antd/dist/antd.css";
+
+.app {
+	height: 100vh;
+	/* overflow: hidden; */
+}
+
+.dashboard-layout {
+	height: 100vh;
+}
+
+.dashboard-layout-content {
+	padding: 1rem;
+	overflow: auto;
+}
+
+.login-wrapper {
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.login-wrapper .login-form {
+	width: 550px;
+}
+
+.register-wrapper {
+	margin: 2rem;
+}
+
+.dashboard-header-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.dashboard-header-wrapper .ant-typography {
+	color: white;
+	margin: 0;
+}
